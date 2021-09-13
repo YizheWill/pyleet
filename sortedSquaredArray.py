@@ -1,4 +1,5 @@
 def sortedSquaredArray(array):
+
     # i = 0
     # j = len(array) - 1
     # res = []
@@ -10,6 +11,6 @@ def sortedSquaredArray(array):
     #         res = array[i] * array[i] + res
     #         i += 1
     # return res
-    res = [x * x for x in array]
-    res.sort()
-    return res
+  res = [x * x for x in array]
+  res.sort()
+  return res
